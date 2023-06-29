@@ -6,11 +6,9 @@ format:
     code-copy: true
     code-link: true
     code-tools: true
-    embed-resources: true
     theme:
       dark: darkly
       light: flatly
-    notebook-links: global
   revealjs:
     slide-number: true
     preview-links: auto
