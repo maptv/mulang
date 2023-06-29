@@ -1,0 +1,21 @@
+execute:
+  echo: fenced
+  eval: false
+format:
+  html:
+    code-copy: true
+    code-link: true
+    code-tools: true
+    theme:
+      dark: darkly
+      light: flatly
+    notebook-links: global
+  revealjs:
+    slide-number: true
+    preview-links: auto
+    embed-resources: true
+    output-file: slides.html
+  pdf:
+    colorlinks: true
+    pdf-engine: wkhtmltopdf
+  docx: default
