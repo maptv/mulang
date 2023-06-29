@@ -17,3 +17,5 @@ format:
     colorlinks: true
     pdf-engine: wkhtmltopdf
   docx: default
+  ipynb:
+    output-ext: "viewonly.ipynb"
