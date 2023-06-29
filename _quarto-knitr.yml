@@ -6,6 +6,7 @@ format:
     code-copy: true
     code-link: true
     code-tools: true
+    embed-resources: true
     theme:
       dark: darkly
       light: flatly
