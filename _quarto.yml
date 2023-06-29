@@ -6,5 +6,5 @@ number-sections: true
 highlight-style: arrow
 code-fold: show
 execute:
-  cache: false
+  cache: true
   freeze: auto
