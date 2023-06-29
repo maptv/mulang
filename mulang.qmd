@@ -1,6 +1,5 @@
 ---
 title: "mulang"
-engine: jupyter
 ---
 
 ## Quarto
@@ -37,11 +36,13 @@ Keep Python, R, and Julia code in separate scripts
 Use Jupyter for 
 
 ```{r}
+#| tags: [pairs]
 ma <- as.matrix(iris[, 1:4])
 pairs(ma, col = rainbow(3)[iris$Species])
 ```
 
 ```{r}
+#| tags: [ggpairs]
 # install.packages("GGally")
 library(GGally)
 
@@ -52,15 +53,18 @@ ggpairs(iris,                 # Data frame
 ```
 
 ```{python}
+#| tags: [pairplot]
 import seaborn as sns
 import matplotlib.pyplot as plt
 iris = sns.load_dataset("iris")
 sns.pairplot(iris, hue="species")
 ```
 
+
+````
 ```{julia}
 using StatsPlots, RDatasets
 iris = RDatasets.dataset("datasets", "iris")
 @df iris corrplot(cols(1:4), grid = false)
 ```
-
+````
