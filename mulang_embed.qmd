@@ -1,0 +1,7 @@
+Python code:
+
+{{< embed mulang_python.ipynb echo=true >}}
+
+# R code:
+
+{{< embed mulang_r.ipynb echo=true >}}
