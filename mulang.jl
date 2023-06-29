@@ -8,9 +8,9 @@
 #       format_version: '1.5'
 #       jupytext_version: 1.14.6
 #   kernelspec:
-#     display_name: R
-#     language: R
-#     name: ir
+#     display_name: Julia 1.9.1
+#     language: julia
+#     name: julia-1.9
 # ---
 
 # ## Quarto
