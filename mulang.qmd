@@ -61,10 +61,10 @@ sns.pairplot(iris, hue="species")
 ```
 
 
-````
 ```{julia}
+#| tags: [corrplot]
+#| eval: false
 using StatsPlots, RDatasets
 iris = RDatasets.dataset("datasets", "iris")
 @df iris corrplot(cols(1:4), grid = false)
 ```
-````

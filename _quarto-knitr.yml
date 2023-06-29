@@ -1,6 +1,5 @@
 execute:
   echo: fenced
-  eval: false
 format:
   html:
     code-copy: true
