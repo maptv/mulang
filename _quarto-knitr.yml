@@ -13,6 +13,7 @@ format:
     preview-links: auto
     embed-resources: true
     output-file: slides.html
+    theme: dark
   pdf:
     colorlinks: true
     pdf-engine: wkhtmltopdf

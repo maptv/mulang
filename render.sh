@@ -37,8 +37,5 @@ cat "${1%.*}.qmd"  | gsed '/^```{/,/^```$/ { # set a range and say what should h
 # Ranges example: This deletes all code chunks
 # cat mulang.qmd | sed '/^```{/,/^```$/d'\n
 
-# create all output files
-quarto render "${1%.*}.qmd" --profile knitr --metadata engine:knitr
-
 # recreate html output file with embedded notebooks
-quarto render "${1%.*}_embed.qmd" --profile knitr --metadata engine:knitr --to html --output "${1%.*}.html"
+quarto render "${1%.*}_embed.qmd" --profile knitr --metadata engine:knitr
