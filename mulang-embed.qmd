@@ -35,8 +35,8 @@ Keep Python, R, and Julia code in separate scripts
 2. Embed cells from those notebooks in a combined Quarto notebook
 Use Jupyter for 
 
-{{< embed mulang_r.ipynb#ggpairs echo=true >}}
+{{< embed mulang_r.ipynb#ggpairs >}}
 
 you need content between these.
 
-{{< embed mulang_python.ipynb#pairplot echo=true >}}
+{{< embed mulang_python.ipynb#pairplot >}}

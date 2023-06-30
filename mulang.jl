@@ -76,3 +76,7 @@ ggpairs(iris,                 # Data frame
 # iris = RDatasets.dataset("datasets", "iris")
 # @df iris corrplot(cols(1:4), grid = false)
 # ```
+#
+# ```
+# {{< include mulang_embed.qmd>}}
+# ```

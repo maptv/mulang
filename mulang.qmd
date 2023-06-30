@@ -41,6 +41,8 @@ ma <- as.matrix(iris[, 1:4])
 pairs(ma, col = rainbow(3)[iris$Species])
 ```
 
+Another test
+
 ```{r}
 #| tags: [ggpairs]
 # install.packages("GGally")
@@ -52,6 +54,8 @@ ggpairs(iris,                 # Data frame
             alpha = 0.5))     # Transparency 
 ```
 
+Will this be deleted?
+
 ```{python}
 #| tags: [pairplot]
 import seaborn as sns
@@ -60,6 +64,7 @@ iris = sns.load_dataset("iris")
 sns.pairplot(iris, hue="species")
 ```
 
+Test
 
 ```{julia}
 #| tags: [corrplot]
